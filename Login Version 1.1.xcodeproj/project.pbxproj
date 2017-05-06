@@ -12,6 +12,8 @@
 		DE65646B1EBDE21D0046B1D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE6564691EBDE21D0046B1D7 /* Main.storyboard */; };
 		DE65646D1EBDE21E0046B1D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE65646C1EBDE21E0046B1D7 /* Assets.xcassets */; };
 		DE6564701EBDE21E0046B1D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE65646E1EBDE21E0046B1D7 /* LaunchScreen.storyboard */; };
+		DE6564791EBDE2440046B1D7 /* wallpaper-iphone-7-apple-1080-1920-full-hd-140.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE6564781EBDE2440046B1D7 /* wallpaper-iphone-7-apple-1080-1920-full-hd-140.jpg */; };
+		DE65647B1EBDE25E0046B1D7 /* icon_mac_round_512.png in Resources */ = {isa = PBXBuildFile; fileRef = DE65647A1EBDE25E0046B1D7 /* icon_mac_round_512.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DE65646C1EBDE21E0046B1D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE65646F1EBDE21E0046B1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE6564711EBDE21E0046B1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6564781EBDE2440046B1D7 /* wallpaper-iphone-7-apple-1080-1920-full-hd-140.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wallpaper-iphone-7-apple-1080-1920-full-hd-140.jpg"; sourceTree = "<group>"; };
+		DE65647A1EBDE25E0046B1D7 /* icon_mac_round_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_mac_round_512.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,18 @@
 				DE65646C1EBDE21E0046B1D7 /* Assets.xcassets */,
 				DE65646E1EBDE21E0046B1D7 /* LaunchScreen.storyboard */,
 				DE6564711EBDE21E0046B1D7 /* Info.plist */,
+				DE6564771EBDE2280046B1D7 /* Resource */,
 			);
 			path = "Login Version 1.1";
+			sourceTree = "<group>";
+		};
+		DE6564771EBDE2280046B1D7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DE65647A1EBDE25E0046B1D7 /* icon_mac_round_512.png */,
+				DE6564781EBDE2440046B1D7 /* wallpaper-iphone-7-apple-1080-1920-full-hd-140.jpg */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +139,9 @@
 			files = (
 				DE6564701EBDE21E0046B1D7 /* LaunchScreen.storyboard in Resources */,
 				DE65646D1EBDE21E0046B1D7 /* Assets.xcassets in Resources */,
+				DE6564791EBDE2440046B1D7 /* wallpaper-iphone-7-apple-1080-1920-full-hd-140.jpg in Resources */,
 				DE65646B1EBDE21D0046B1D7 /* Main.storyboard in Resources */,
+				DE65647B1EBDE25E0046B1D7 /* icon_mac_round_512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
